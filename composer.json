@@ -1,0 +1,20 @@
+{
+    "name": "torow/my-composer",
+    "description": "my composer project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Torow",
+            "email": "736250253@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "monolog/monolog": "^1.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "Torow\\": "src/"
+        }
+    }
+}
