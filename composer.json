@@ -1,7 +1,9 @@
 {
     "name": "torow/my-composer",
     "description": "my composer project",
-    "license": "Apache-2.0",
+    "keywords": ["alipay", "wechat", "pay"],
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Torow",
@@ -13,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Torow\\": "src/"
+            "Torow\\Pay\\": "src/"
         }
     }
 }
