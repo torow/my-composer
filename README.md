@@ -1,2 +1,1 @@
 # my-issues
-composer project
